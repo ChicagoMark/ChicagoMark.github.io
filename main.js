@@ -43,7 +43,7 @@ function sumTrainScores() {
 
   if (longestRoute.checked) {
     longestRouteScore = 10;
-    longestRouteText.innerHTML = "Longest Route Bounus: +10";
+    longestRouteText.innerHTML = "Longest Route Bonus: +10";
   } else {
     longestRouteText.innerHTML = "";
   }
@@ -59,7 +59,7 @@ function sumTrainScores() {
 
   console.log(finalScore);
   trainScoreText.innerHTML = "Train Score: " + trainTotalScore;
-  destinationScoreText.innerHTML = "Destination Score: " + destScore;
+  destinationScoreText.innerHTML = "Total Destination Score: " + destScore;
   finalText.innerHTML = "Final Score: " + finalScore;
 }
 calcSubmit.addEventListener("click", sumTrainScores);
